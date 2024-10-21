@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* for pop register and login display kasari huni*/
+div.popup-container{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    /* background-image: url(login.png); */
+    background: url('../img/login.png') no-repeat center center/cover;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    /* display:none; */
+
+}
+
+/* for pop register and login box */
+div.popup-container div.popup{
+    /* background-color:rgb(233, 250, 253); */
+    width:350px;
+    border-radius: 5px;
+    padding:20px 25px 30px 25px;
+    background-color: transparent;
+    margin-top: 11rem;
+    margin-left: 7rem;
+
+}
+
+/* register and login heading */
+div.popup-container div.popup h2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+/* cross button */
+div.popup-container div.popup h2 button{
+    border:none;
+    background-color: transparent;
+    outline:none;
+    font-size: 18px;
+    font-weight: 550;
+    color:red;
+}
+/* login and register input  */
+div.popup-container div.popup input{
+    width:100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+
+    /* background-color:rgb(255, 255, 255); */
+    border:none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    padding:5px 0;
+    font-weight: 550;
+    font-size: 14px;
+    outline:none;
+}
+div.popup-container div.popup button.loginbutton{
+    font-weight: 500;
+    background-color:skyblue;
+    border:none;
+    padding: 4px 10px ;;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+div.popup-container div.popup button.registerbutton{
+    font-weight: 500;
+    background-color:rgb(142, 38, 216);
+    border:none;
+    padding: 4px 10px ;;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+    /* Logout */
+    header div.user {
+        background-color:rgb(221, 236, 135);
+        font-size: 16px;
+        font-weight: 550;
+        padding:4px 12px;
+        border:1px solid black;
+        border-radius: 5px;
+        
+    }
+/* message 
+    /* div.popup-container div.popup .errorcontainer{
+        color:red;
+        display:block;
+        margin:10px 0;
+        background:transparent;
+        border-radius: 5px;;
+    } */
+
+    div.popup-container div.popup .error-container.success {
+        color: rgb(0, 255, 0);
+         }
+
+         div.popup-container div.popup .error-container.failed {
+        color: lightcoral;
+        } 
+
+    
+       
